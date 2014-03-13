@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/g"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/counter_text_color"
+    android:clickable="false">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <ImageView
+            android:id="@+id/splashImage"
+            style="@style/nowCardStyle"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/aospa" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/splashImage"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="PAEK"
+            android:textColor="@color/counter_text_bg"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_alignRight="@+id/textView1"
+            android:layout_below="@+id/textView1" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/introbtn"
+        style="@style/nowCardStyle"
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/RelativeLayout1"
+        android:text="Go"
+        android:visibility="invisible" />
+
+</RelativeLayout>

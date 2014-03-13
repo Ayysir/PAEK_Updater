@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- saved from url=(0061)http://91.hostingsharedbox.com:3000/ayysir/.changelog/g2.html -->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <title>Changelog</title>
+
+    <style type="text/css">
+        body {
+        /*font-family: monospace;
+        background: black;
+        color: white;*/
+        font:12px Tahoma, Verdana, Arial, Sans-Serif;
+        }
+
+        .title {
+        color: #0000ff;
+        }
+
+        a {
+        color: #0000ff;
+        }
+    </style>
+
+
+    <br>
+    <br>
+
+    <div class="title">v1.2</div>
+<ul>
+    <li>add Time in state</li>
+    <li>More code optimizations</li>
+    <li>add prompt for non users on updates tab</li>
+    <li>redid settings look a bit</li>
+</ul>
+
+    <div class="title">v1.1</div>
+<body style="background-color:#dcdcdc;">
+<ul>
+    <li>add Time in state</li>
+    <li>Bug fixes</li>
+    <li>Allow non-paek users to download it</li>
+</ul>
+<br>
+
+<center>
+    <div class="title">Copyright (C) 2014 PAEK</div>
+</center>
+
+
+</center></center></body>
+<html></html>
+

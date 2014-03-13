@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+Copyright © 2014 Andre "Ayysir" Saddler
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<resources>
+
+    <!-- General -->
+    <string name="app_name">PAEK</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <string name="cancel">Cancel</string>
+    <string name="welcome">WELCOME</string>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="changelog_error">Can not load website</string>
+
+    <!-- ABOUT -->
+    <string name="about">About</string>
+    <string name="dialog_about">PAEK Updater developed by Andre Saddler (Ayysir).
+        \n\nCredits:
+        \n - Rob Farnham (Server and Build Bot)
+        \n\t\t\ Pricing: http://goo.gl/BBr2gn
+        \n\t\t\thostingsharedbox@gmail.com
+        \n
+        \n - Lee Mercer (App icon)
+        \n\t\t\tlee.james.mercer@gmail.com
+        \n
+        \n - Parthipan Ramesh (Fancy Updater)
+        \n\t\t\tFor coding and OTA support
+        \n
+        \n\n Copyright © 2014 PAEK. All rights reserved.</string>
+
+    <string name="close">Close</string>
+
+    <!--Unsupported-->
+    <string name="unsupported_device">Device is not supported</string>
+
+    <!--Refresh-->
+    <string name="refresh">Refresh</string>
+
+    <!-- CPU info -->
+    <string name="cpu_info">Cpu Info</string>
+    <string name="mem_info">Memory Info</string>
+    <string name="su_failed_title">no root exist</string>
+    <string name="su_failed_su_or_busybox">no root or busybox</string>
+    <string name="not_available">Not available</string>
+
+    <!-- Reboot -->
+    <string name="reboot_recovery">Rebooting to recovery</string>
+    <string name="recovery_options">Root options</string>
+    <string name="Rrecovery">Rebooting to Recovery</string>
+    <string name="reboot">Reboot</string>
+    <string name="update">Update</string>
+    <string name="reboot_menu">Reboot Menu</string>
+    <string name="mounted">Partitions Mounted</string>
+    <string name="soft_reboot">Soft Reboot</string>
+    <string name="reboot_dialog">Reboot to install/update PAEK?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!-- Update Fragment -->
+    <string name="download">Download</string>
+    <string name="no_update_available">You\'re up to date!</string>
+    <string name="update_available">Update available!</string>
+    <string name="network_error">No connection!</string>
+    <string name="latest_kernel_not_available">n/a</string>
+    <string name="not_paek">Non-Supported Kernel</string>
+
+    <!-- MISC -->
+    <string name="not_there">Does not exist</string>
+    <string name="fix_perms_done">Fix permissions done</string>
+    <string name="not_sd_there">not on SDcard</string>
+    <string name="done">Done</string>
+    <string name="wip">Work in Progress</string>
+    <string name="warning">WARNING!</string>
+    <string name="attention">ATTENTION!</string>
+    <string name="ok">OK</string>
+    <string name="cpu_dialog">This section is still work in progress, please keep in mind more things will be added in the near future!</string>
+    <string name="download_dialog">You are not running the Paranoid Android Enhanced Kernel, would you like to download kernel for your device?</string>
+    <string name="dialog_getting_information">DERP</string>
+
+    <!-- Time in state -->
+    <string name="time_in_state">TIME IN STATE</string>
+    <string name="unused_cpu_states">UNUSED CPU STATES</string>
+    <string name="total_state_time">TOTAL STATE TIME</string>
+    <string name="no_states_file_found">No states file found. Are you sure your phone is
+        compatible?\n\nIf you are running a custom ROM or kernel, try
+        contacting its developer to inform him that the states file is not
+        readable.
+    </string>
+    <string name="deep_sleep">"Deep Sleep"</string>
+
+    <!-- Menu -->
+    <string name="mt_refresh">Refresh</string>
+    <string name="mt_app_settings">"App Settings"</string>
+    <string name="mt_reset">Reset</string>
+    <string name="mt_restore">Restore</string>
+    <string name="mt_plus25">Increase by 25 mV</string>
+    <string name="mt_minus25">Decrease by 25 mV</string>
+    <string name="kernel_basic">Kernel Info</string>
+
+
+    <!-- Notification -->
+    <string name="tap_to_start_paek">Tap to start PAEK!</string>
+    <string name="previous_settings_applied">Previous settings applied.</string>
+    <string name="settings_title">Settings</string>
+    <string name="setting_desc">Various options</string>
+</resources>

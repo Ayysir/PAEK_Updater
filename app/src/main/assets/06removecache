@@ -1,0 +1,3 @@
+#!/system/bin/sh
+. /system/etc/helpers.sh
+busybox find /data/data -type d -iname *cache* -maxdepth 2 -mindepth 2 -exec busybox rm -rf {} ';' 

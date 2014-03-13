@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+Copyright © 2014 Ayysir
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<resources>
+
+    <string-array name="reboot">
+        <item>Reboot</item>
+        <item>Soft Reboot</item>
+        <item>Reboot Recovery</item>
+    </string-array>
+
+    <string-array name="extras">
+        <item>Fix Permissions</item>
+        <item>Zip Align</item>
+        <item>Clean Cache</item>
+        <item>Install to Init.d</item>
+        <item>Delete All</item>
+    </string-array>
+
+    <string-array name="settings">
+        <item>Reboot Menu</item>
+        <item>Extras</item>
+    </string-array>
+
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Cpu Info</item>
+        <item>Updates</item>
+        <item>Utilities</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_download</item>
+    </array>
+</resources>
